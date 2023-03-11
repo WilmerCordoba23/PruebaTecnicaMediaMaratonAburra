@@ -13,7 +13,7 @@ assets/js/formValidator.js (Contiene todo el codigo para la validacion del regis
 ## Ejecución
 Para ejecutar el programa contamos con 2 opciones:
 1. Primera opción: Debemos descargar el codigo del repositorio, despues abrir el archivo index.html en el navegador de su preferencia. 
-2. Segunda opción: En nuestro navegador de preferencia debemos ingresar al siguiente link, este nos redirigirá a la plataforma. Links: https://wilmercordoba.github.io/MediaMaratonAburra/
+2. Segunda opción: En nuestro navegador de preferencia debemos ingresar al siguiente link, este nos redirigirá a la plataforma. Links: https://wilmercordoba23.github.io/PruebaTecnicaMediaMaratonAburra/
 
 ## Funcionamiento
 Al entrar en la plataforma se nos renderizara un formulario el cual debe ser llenado con la información personal y salud física del participante. La información necesaria para llenar es el nombre completo, identificación, correo, ciudad, altura, peso y talla camiseta, en caso que   la información no cumpla con algunos parámetros obligatorios se mostrará que debe corregir. Cuando todo este correcto se guardará exitosamente el registro y su evaluación. 
