@@ -1,0 +1,124 @@
+/*Un restablecimiento de CSS para asegurarse de que todos los navegadores 
+renderizan la página de la misma manera.*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+/*Establecer el color de fondo del cuerpo a un azul claro.*/
+body {
+    background-color: #f0f0f0;
+}
+
+/*Definir la anchura, altura, margen, radio de borde, borde y color de fondo del formulario.*/
+.form-body {
+    width: 600px;
+    height: auto;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: solid 2px;
+    background-color: aliceblue;
+}
+
+/*Establecer el margen y la alineación del texto de las clases form-tittle y form-subtittle.*/
+.form-tittle,
+.form-subtittle {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Establecer el margen y la alineación del texto de la clase form-obligatory. */
+.form-obligatory {
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* Establecer color de clase obligatory a rojo. */
+.obligatory {
+    color: red;
+}
+
+/*Establecer el tamaño de fuente de la clase form-tittle a 30px.*/
+.form-tittle {
+    font-size: 30px;
+}
+
+/*Configurar el margen, la visualización, la anchura y la altura de la clase form-input y form-selects. */
+.form-input,
+.form-selects {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+/*Cambiar el color de fondo de la entrada cuando está enfocada.*/
+.form input:focus {
+    background-color: rgba(2, 130, 189, 0.2);
+}
+
+/*Centrado del formulario.*/
+.form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Establecer display none a la clase successful-register. */
+.successful-register {
+    display: none;
+}
+
+/*Establecer el ancho, alto, tamaño de fuente, estilo de borde, radio de borde, margen y cursor de las clases
+btn-reset y btn-subtmit.*/
+.btn-reset,
+.btn-subtmit {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+/* Configurar el color de fondo del botón de reinicio a un naranja claro. */
+.btn-reset {
+    background-color: #D49A02;
+}
+
+/*Establecer el color de fondo del botón de envío en verde claro. */
+.btn-subtmit {
+    background-color: #31f400b0;
+}
+
+/* Ajuste del background color, padding, y display la clase footer. */
+.footer {
+    background-color: aliceblue;
+    padding: 20px 0;
+    display: block;
+}
+
+/*Centrado del texto en la clase footer-container.*/
+.footer-container {
+    text-align: center;
+}
+
+/*Estableciendo la decoración del texto en ninguno y el color en negro.*/
+.footer-text {
+    text-decoration: none;
+    color: black;
+}
+
+/*Cambiar el color del texto en la clase footer-text cuando el ratón está sobre él.*/
+.footer-text:hover {
+    color: rgba(2, 130, 189, 0.795);
+}
+
+/*Media query para Hacer la clase form-body más pequeña cuando la pantalla es inferior a 450px.*/
+@media (max-width: 450px) {
+    .form-body {
+        width: 320px;
+    }
+}

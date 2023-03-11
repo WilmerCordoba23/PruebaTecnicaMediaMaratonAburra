@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="./assets/css/style.css" TYPE="text/css" MEDIA=screen>
+    <title>MEDIA MARATÓN ABURRÁ</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="form-body">
+            <div class="form">
+                <h1 class="form-tittle">Registro de información</h1>
+                <h4 class="form-subtittle">MEDIA MARATÓN ABURRÁ DE LOS YAMESÍES</h4>
+                <h5 class="form-obligatory">Los campos (<span class="obligatory">*</span>) son obligatorios.</h5>
+                <!-- Form -->
+                <form action="#" id="formRegister">
+
+                    <label for="fullName">Ingrese su nombre completo <span class="obligatory">*</span></label>
+                    <input type="text" class="form-input" name="fullName" id="fullName" data-label="Nombre"
+                        placeholder="Tu Nombre completo">
+
+                    <label for="id">Ingrese su numero de Identificación <span class="obligatory">*</span></label>
+                    <input type="number" class="form-input" name="id" id="id" data-label="Identificación"
+                        placeholder="Tu Identificación" min="1" pattern="^[0-9]+">
+
+                    <label for="email">Ingrese su correo electrónico</label>
+                    <input type="email" class="form-input" name="email" id="email" data-label="Email"
+                        placeholder="Tu Correo electrónico">
+
+                    <label for="city">Ciudad</label>
+                    <select name="city" id="city" class="form-selects" data-label="Email">
+                        <option value="default">Selecione su ciudad</option>
+                    </select>
+
+                    <label for="mts">Ingrese su altura en metros</label>
+                    <input type="number" class="form-input" name="mts" id="mts" data-label="Altura"
+                        placeholder="Tu Altura (mts), EJ: 1.70" step="0.01" min="1">
+
+                    <label for="kg">Ingrese su peso en kilogramos</label>
+                    <input type="number" class="form-input" name="kg" id="kg" data-label="Peso"
+                        placeholder="Tu Peso (kg), EJ: 70" pattern="^[0-9]+">
+
+                    <label for="size">Talla de camiseta <span class="obligatory">*</span></label>
+                    <select name="size" id="size" class="form-selects" data-label="Talla">
+                        <option value="None" data-label="default">Selecione su Talla</option>
+                        <option value="M" data-label="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+
+                    <label for="activityf">¿Durante el ejercicio o deporte que practica ha tenido dolor en el
+                        pecho?</label>
+                    <select name="activityF" id="activityF" class="form-selects">
+                        <option value="default">Elija: (Si/No)</option>
+                        <option value="si">SI</option>
+                        <option value="no">NO</option>
+                    </select>
+
+                    <section name="successful-register" class="successful-register">
+                        <label for="imc">Su IMC es:</label>
+                        <input type="text" class="form-input hidden" name="imc" id="imc" data-label="IMC"
+                            placeholder="Tu IMC" value="Tu IMC" disabled>
+
+                        <label for="valoration">Resultado de su valoracion:</label>
+                        <input type="text" class="form-input hidden" name="valoration" id="valoration"
+                            data-label="Valoracion" placeholder="Resultado estado fisico."
+                            value="Resultado estado fisico." disabled>
+                    </section>
+
+                    <button type="reset" class="btn-reset" data-label="Limpiar" value="Limpiar">Limpiar</button>
+                    <button type="submit" class="btn-subtmit" data-label="Guardar">Guardar</button>
+                </form>
+                <!-- End Form-->
+                <div id="errorsDiv" class="errorsDiv"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <!-- Copyrights -->
+        <div class="footer-container">
+            <p><a href="https://github.com/WilmerCordoba23/PruebaTecnicaMediaMaratonAburra" class="footer-text">© 2023
+                    Media Maratón Aburrá, Todos los derechos reservados.</a></p>
+        </div>
+        <!-- End Copyrights -->
+
+    </footer>
+    <!-- End Footer -->
+</body>
+
+</html>
+<script src="./assets/js/formValidator.js"></script>
