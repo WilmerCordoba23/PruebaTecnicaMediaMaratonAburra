@@ -6,9 +6,9 @@ La organización de la carrera necesita información personal y del estado de sa
 Este proyecto es presentado como prueba técnica de JavaScript, basada en la creación de una plataforma para la optimación de información de participantes para una media maratón. A continuación, describiremos los requerimientos para la entrega.
 
 ## Archivos
-index.html (Contiene todo el codigo estructura de la plataforma).
-assets/css/style.css (Contiene todo el codigo de estilo de la plataforma).
-assets/js/formValidator.js (Contiene todo el codigo para la validacion del registro en la plataforma).
+* index.html (Contiene todo el codigo estructura de la plataforma).
+* assets/css/style.css (Contiene todo el codigo de estilo de la plataforma).
+* assets/js/formValidator.js (Contiene todo el codigo para la validacion del registro en la plataforma).
 
 ## Ejecución
 Para ejecutar el programa contamos con 2 opciones:
